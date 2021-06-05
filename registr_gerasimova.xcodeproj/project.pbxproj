@@ -85,10 +85,11 @@
 			isa = PBXGroup;
 			children = (
 				CE2ECAFC266B8E7800359F32 /* File.swift */,
+				CEB03E5E266A5141009ED178 /* SceneDelegate.swift */,
 				CEB03E5C266A5141009ED178 /* AppDelegate.swift */,
+				CEB03E67266A5148009ED178 /* LaunchScreen.storyboard */,
 				CE2ECAFE266BA2B500359F32 /* Launch Screen.storyboard */,
 				CEB03E62266A5148009ED178 /* Assets.xcassets */,
-				CEB03E6A266A5148009ED178 /* Info.plist */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -114,10 +115,9 @@
 		CEB03E5B266A5141009ED178 /* registr_gerasimova */ = {
 			isa = PBXGroup;
 			children = (
-				CEB03E5E266A5141009ED178 /* SceneDelegate.swift */,
+				CEB03E6A266A5148009ED178 /* Info.plist */,
 				CE2ECB05266BB26A00359F32 /* View */,
 				CE2ECB06266BB2B000359F32 /* Common */,
-				CEB03E67266A5148009ED178 /* LaunchScreen.storyboard */,
 				CEB03E64266A5148009ED178 /* Preview Content */,
 			);
 			path = registr_gerasimova;

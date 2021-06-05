@@ -10,17 +10,13 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack{
-          
-         
-                    ScrollView(.horizontal, showsIndicators: false, content: {
-                        
-                })
+            HStack {
                 Image(systemName: "bookmark")
                 Spacer()
                 Text ("Social")
                 Spacer()
                 Image(systemName: "bell")
-            }.padding()
+            }
             ScrollView(.horizontal, showsIndicators: false, content: {
                 HStack {
                     ForEach(0...15, id: \.self) {
@@ -32,9 +28,10 @@ struct HomeView: View {
                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
             }
             
-        )
+            )
             Spacer()
-}
+        }
+    }
 }
 
 struct HomeView_Previews: PreviewProvider {
