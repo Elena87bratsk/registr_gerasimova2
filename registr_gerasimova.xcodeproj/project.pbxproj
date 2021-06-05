@@ -3,23 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD4EDEDE3BEEA4811944448A /* Pods_registr_gerasimova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB19BF30876FEA7C0F565CC /* Pods_registr_gerasimova.framework */; };
+		CE2ECAFB266B652300359F32 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CE2ECAFA266B652300359F32 /* SwiftyJSON */; };
+		CE2ECAFD266B8E7800359F32 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECAFC266B8E7800359F32 /* File.swift */; };
+		CE2ECB00266BA2B600359F32 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECAFF266BA2B600359F32 /* SwiftUIView2.swift */; };
+		CE2ECB02266BA41300359F32 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECB01266BA41300359F32 /* MainView.swift */; };
+		CE2ECB04266BAB2000359F32 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECB03266BAB2000359F32 /* HomeView.swift */; };
 		CEB03E5D266A5141009ED178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E5C266A5141009ED178 /* AppDelegate.swift */; };
 		CEB03E5F266A5141009ED178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E5E266A5141009ED178 /* SceneDelegate.swift */; };
-		CEB03E61266A5141009ED178 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E60266A5141009ED178 /* ContentView.swift */; };
+		CEB03E61266A5141009ED178 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E60266A5141009ED178 /* SignInView.swift */; };
 		CEB03E63266A5148009ED178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB03E62266A5148009ED178 /* Assets.xcassets */; };
 		CEB03E66266A5148009ED178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB03E65266A5148009ED178 /* Preview Assets.xcassets */; };
 		CEB03E69266A5148009ED178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB03E67266A5148009ED178 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BB19BF30876FEA7C0F565CC /* Pods_registr_gerasimova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_registr_gerasimova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2594953DA42B059D5C9097A7 /* Pods-registr_gerasimova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-registr_gerasimova.debug.xcconfig"; path = "Target Support Files/Pods-registr_gerasimova/Pods-registr_gerasimova.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1007E79F4AB9A98748E3F6 /* Pods-registr_gerasimova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-registr_gerasimova.release.xcconfig"; path = "Target Support Files/Pods-registr_gerasimova/Pods-registr_gerasimova.release.xcconfig"; sourceTree = "<group>"; };
+		CE2ECAFC266B8E7800359F32 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CE2ECAFE266BA2B500359F32 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "/Users/user/Desktop/registr_gerasimova/registr_gerasimova/Launch Screen.storyboard"; sourceTree = "<absolute>"; };
+		CE2ECAFF266BA2B600359F32 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIView2.swift; path = /Users/user/Desktop/registr_gerasimova/registr_gerasimova/SwiftUIView2.swift; sourceTree = "<absolute>"; };
+		CE2ECB01266BA41300359F32 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE2ECB03266BAB2000359F32 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CEB03E59266A5141009ED178 /* registr_gerasimova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = registr_gerasimova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB03E5C266A5141009ED178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB03E5E266A5141009ED178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEB03E60266A5141009ED178 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEB03E60266A5141009ED178 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CEB03E62266A5148009ED178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB03E65266A5148009ED178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEB03E68266A5148009ED178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +45,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2ECAFB266B652300359F32 /* SwiftyJSON in Frameworks */,
+				BD4EDEDE3BEEA4811944448A /* Pods_registr_gerasimova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52756A6177E6891D713284CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2594953DA42B059D5C9097A7 /* Pods-registr_gerasimova.debug.xcconfig */,
+				2C1007E79F4AB9A98748E3F6 /* Pods-registr_gerasimova.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FA2E6B7F4E543CDAF5A10B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB19BF30876FEA7C0F565CC /* Pods_registr_gerasimova.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2ECB05266BB26A00359F32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEB03E60266A5141009ED178 /* SignInView.swift */,
+				CE2ECAFF266BA2B600359F32 /* SwiftUIView2.swift */,
+				CE2ECB01266BA41300359F32 /* MainView.swift */,
+				CE2ECB03266BAB2000359F32 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2ECB06266BB2B000359F32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE2ECAFC266B8E7800359F32 /* File.swift */,
+				CEB03E5C266A5141009ED178 /* AppDelegate.swift */,
+				CE2ECAFE266BA2B500359F32 /* Launch Screen.storyboard */,
+				CEB03E62266A5148009ED178 /* Assets.xcassets */,
+				CEB03E6A266A5148009ED178 /* Info.plist */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		CEB03E50266A5141009ED178 = {
 			isa = PBXGroup;
 			children = (
 				CEB03E5B266A5141009ED178 /* registr_gerasimova */,
 				CEB03E5A266A5141009ED178 /* Products */,
+				52756A6177E6891D713284CA /* Pods */,
+				8FA2E6B7F4E543CDAF5A10B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +114,10 @@
 		CEB03E5B266A5141009ED178 /* registr_gerasimova */ = {
 			isa = PBXGroup;
 			children = (
-				CEB03E5C266A5141009ED178 /* AppDelegate.swift */,
 				CEB03E5E266A5141009ED178 /* SceneDelegate.swift */,
-				CEB03E60266A5141009ED178 /* ContentView.swift */,
-				CEB03E62266A5148009ED178 /* Assets.xcassets */,
+				CE2ECB05266BB26A00359F32 /* View */,
+				CE2ECB06266BB2B000359F32 /* Common */,
 				CEB03E67266A5148009ED178 /* LaunchScreen.storyboard */,
-				CEB03E6A266A5148009ED178 /* Info.plist */,
 				CEB03E64266A5148009ED178 /* Preview Content */,
 			);
 			path = registr_gerasimova;
@@ -82,15 +138,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB03E6D266A5148009ED178 /* Build configuration list for PBXNativeTarget "registr_gerasimova" */;
 			buildPhases = (
+				67FEB2B61DDF1BB1196C84F1 /* [CP] Check Pods Manifest.lock */,
 				CEB03E55266A5141009ED178 /* Sources */,
 				CEB03E56266A5141009ED178 /* Frameworks */,
 				CEB03E57266A5141009ED178 /* Resources */,
+				A5903952144BEA760831219D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = registr_gerasimova;
+			packageProductDependencies = (
+				CE2ECAFA266B652300359F32 /* SwiftyJSON */,
+			);
 			productName = registr_gerasimova;
 			productReference = CEB03E59266A5141009ED178 /* registr_gerasimova.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +179,9 @@
 				Base,
 			);
 			mainGroup = CEB03E50266A5141009ED178;
+			packageReferences = (
+				CE2ECAF9266B652300359F32 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = CEB03E5A266A5141009ED178 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,14 +204,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67FEB2B61DDF1BB1196C84F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-registr_gerasimova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5903952144BEA760831219D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-registr_gerasimova/Pods-registr_gerasimova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-registr_gerasimova/Pods-registr_gerasimova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-registr_gerasimova/Pods-registr_gerasimova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEB03E55266A5141009ED178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEB03E5D266A5141009ED178 /* AppDelegate.swift in Sources */,
+				CE2ECB04266BAB2000359F32 /* HomeView.swift in Sources */,
+				CE2ECB02266BA41300359F32 /* MainView.swift in Sources */,
+				CE2ECAFD266B8E7800359F32 /* File.swift in Sources */,
+				CE2ECB00266BA2B600359F32 /* SwiftUIView2.swift in Sources */,
 				CEB03E5F266A5141009ED178 /* SceneDelegate.swift in Sources */,
-				CEB03E61266A5141009ED178 /* ContentView.swift in Sources */,
+				CEB03E61266A5141009ED178 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +393,7 @@
 		};
 		CEB03E6E266A5148009ED178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2594953DA42B059D5C9097A7 /* Pods-registr_gerasimova.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +414,7 @@
 		};
 		CEB03E6F266A5148009ED178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1007E79F4AB9A98748E3F6 /* Pods-registr_gerasimova.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -343,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE2ECAF9266B652300359F32 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE2ECAFA266B652300359F32 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE2ECAF9266B652300359F32 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEB03E51266A5141009ED178 /* Project object */;
 }

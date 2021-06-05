@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
-struct ContentView: View {
+import Alamofire
+import SwiftyJSON
+
+struct SignInView: View {
     @State var mail = ""
     @State var pas = ""
+   @ObservedObject var userObject = UserObject()
+    @Binding var page: Int
     var body: some View {
         
         VStack( content: {
@@ -16,7 +21,7 @@ struct ContentView: View {
             Image("Pl")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 150, height: 150, alignment:.center)
+                .frame(width: 180, height: 180, alignment:.center)
                 .padding()
             Text("EMAIL")
                 .frame(width: 300, height: 0, alignment: .leading)
@@ -27,7 +32,7 @@ struct ContentView: View {
                  
                     
             }
-            .overlay(RoundedRectangle (cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/).stroke(Color (UIColor.blue).opacity(1),lineWidth: 1))
+            .overlay(RoundedRectangle (cornerRadius: 25.0).stroke(Color (UIColor.blue).opacity(1),lineWidth: 1))
             .padding(.leading, 20)
             Text("PASSWORD")
                 .font(.system(size: 12))
@@ -41,14 +46,17 @@ struct ContentView: View {
             }
             .overlay(RoundedRectangle (cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/).stroke(Color (UIColor.blue).opacity(1),lineWidth: 1))
             .padding(.leading, 20)
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                Text("SIGN UP")
-                    .foregroundColor(.white)
-                    .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .background(Color(.blue))
-                    .cornerRadius(10)
-                
-            })
+            
+        Button(action: {
+            userObject.login(mail: mail, pas: pas)
+            page = 2
+        }, label: {
+          Text("SIGN IN")
+                .foregroundColor(.white)
+                .frame(width: 300, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .background(Color(.blue))
+                .cornerRadius(10)
+        })
             HStack{
                 Text("Already have an account?")
                     .foregroundColor(.gray)
@@ -67,7 +75,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SignInView(page: .constant(1))
     }
 }
 
