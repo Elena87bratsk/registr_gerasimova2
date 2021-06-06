@@ -13,6 +13,8 @@
 		CE2ECB00266BA2B600359F32 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECAFF266BA2B600359F32 /* SwiftUIView2.swift */; };
 		CE2ECB02266BA41300359F32 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECB01266BA41300359F32 /* MainView.swift */; };
 		CE2ECB04266BAB2000359F32 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECB03266BAB2000359F32 /* HomeView.swift */; };
+		CE2ECB08266C9ED400359F32 /* MovieObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2ECB07266C9ED400359F32 /* MovieObject.swift */; };
+		CE2ECB0C266CA66A00359F32 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CE2ECB0B266CA66A00359F32 /* SDWebImageSwiftUI */; };
 		CEB03E5D266A5141009ED178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E5C266A5141009ED178 /* AppDelegate.swift */; };
 		CEB03E5F266A5141009ED178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E5E266A5141009ED178 /* SceneDelegate.swift */; };
 		CEB03E61266A5141009ED178 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB03E60266A5141009ED178 /* SignInView.swift */; };
@@ -30,6 +32,7 @@
 		CE2ECAFF266BA2B600359F32 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIView2.swift; path = /Users/user/Desktop/registr_gerasimova/registr_gerasimova/SwiftUIView2.swift; sourceTree = "<absolute>"; };
 		CE2ECB01266BA41300359F32 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE2ECB03266BAB2000359F32 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE2ECB07266C9ED400359F32 /* MovieObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieObject.swift; sourceTree = "<group>"; };
 		CEB03E59266A5141009ED178 /* registr_gerasimova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = registr_gerasimova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB03E5C266A5141009ED178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB03E5E266A5141009ED178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2ECB0C266CA66A00359F32 /* SDWebImageSwiftUI in Frameworks */,
 				CE2ECAFB266B652300359F32 /* SwiftyJSON in Frameworks */,
 				BD4EDEDE3BEEA4811944448A /* Pods_registr_gerasimova.framework in Frameworks */,
 			);
@@ -84,7 +88,6 @@
 		CE2ECB06266BB2B000359F32 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				CE2ECAFC266B8E7800359F32 /* File.swift */,
 				CEB03E5E266A5141009ED178 /* SceneDelegate.swift */,
 				CEB03E5C266A5141009ED178 /* AppDelegate.swift */,
 				CEB03E67266A5148009ED178 /* LaunchScreen.storyboard */,
@@ -94,9 +97,19 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		CE2ECB09266CA37F00359F32 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				CE2ECAFC266B8E7800359F32 /* File.swift */,
+				CE2ECB07266C9ED400359F32 /* MovieObject.swift */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
 		CEB03E50266A5141009ED178 = {
 			isa = PBXGroup;
 			children = (
+				CE2ECB09266CA37F00359F32 /* Object */,
 				CEB03E5B266A5141009ED178 /* registr_gerasimova */,
 				CEB03E5A266A5141009ED178 /* Products */,
 				52756A6177E6891D713284CA /* Pods */,
@@ -151,6 +164,7 @@
 			name = registr_gerasimova;
 			packageProductDependencies = (
 				CE2ECAFA266B652300359F32 /* SwiftyJSON */,
+				CE2ECB0B266CA66A00359F32 /* SDWebImageSwiftUI */,
 			);
 			productName = registr_gerasimova;
 			productReference = CEB03E59266A5141009ED178 /* registr_gerasimova.app */;
@@ -181,6 +195,7 @@
 			mainGroup = CEB03E50266A5141009ED178;
 			packageReferences = (
 				CE2ECAF9266B652300359F32 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				CE2ECB0A266CA66A00359F32 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = CEB03E5A266A5141009ED178 /* Products */;
 			projectDirPath = "";
@@ -254,6 +269,7 @@
 				CEB03E5D266A5141009ED178 /* AppDelegate.swift in Sources */,
 				CE2ECB04266BAB2000359F32 /* HomeView.swift in Sources */,
 				CE2ECB02266BA41300359F32 /* MainView.swift in Sources */,
+				CE2ECB08266C9ED400359F32 /* MovieObject.swift in Sources */,
 				CE2ECAFD266B8E7800359F32 /* File.swift in Sources */,
 				CE2ECB00266BA2B600359F32 /* SwiftUIView2.swift in Sources */,
 				CEB03E5F266A5141009ED178 /* SceneDelegate.swift in Sources */,
@@ -465,6 +481,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		CE2ECB0A266CA66A00359F32 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -472,6 +496,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE2ECAF9266B652300359F32 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		CE2ECB0B266CA66A00359F32 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE2ECB0A266CA66A00359F32 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
